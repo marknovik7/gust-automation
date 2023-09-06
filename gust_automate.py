@@ -74,10 +74,7 @@ def main():
                 request_button.click()
 
                 text_box = driver.find_element(By.ID, "information_request_personal_message")
-                text_box.send_keys(
-                    "Hi, I'm Mark from VDF Ventures. We help companies raise funds through our network of "
-                    "accredited investors, located in Silicon Valley, the wider US and Europe. Are you "
-                    "still raising funds?")
+                text_box.send_keys("Message to send to companies")
                 time.sleep(3)
                 # send_button = driver.find_element(By.XPATH, "//input[@name='commit' and @value='Send ']")
                 # send_button.click()
